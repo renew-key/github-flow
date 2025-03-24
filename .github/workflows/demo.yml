@@ -23,7 +23,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-  build_on_linux:
+  build_on_windows:
     runs-on: window-latest
     steps:
       - name: run a multi-line script
