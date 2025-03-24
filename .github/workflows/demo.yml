@@ -31,4 +31,4 @@ jobs:
       - name: Run a multi-line script on Windows
         run: |
           echo Hello, GitHub Actions,
-          Get-Date
+          powershell -Command "Get-Date"
